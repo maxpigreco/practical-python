@@ -486,3 +486,5 @@ upper(...)
 ```
 
 [Contents](../Contents.md) \| [Previous (1.3 Numbers)](03_Numbers.md) \| [Next (1.5 Lists)](05_Lists.md)
+
+# Terminato

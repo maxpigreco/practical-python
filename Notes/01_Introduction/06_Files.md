@@ -246,3 +246,5 @@ rest of this course however, we're going to stick with standard
 Python functionality.
 
 [Contents](../Contents.md) \| [Previous (1.5 Lists)](05_Lists.md) \| [Next (1.7 Functions)](07_Functions.md)
+
+# Terminato

@@ -449,3 +449,5 @@ prices in Exercise 2.6 and compute the current value of the portfolio
 along with the gain/loss.
 
 [Contents](../Contents.md) \| [Previous (2.1 Datatypes)](01_Datatypes.md) \| [Next (2.3 Formatting)](03_Formatting.md)
+
+# Terminato

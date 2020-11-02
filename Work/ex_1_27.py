@@ -1,8 +1,3 @@
-# pcost.py
-#
-# Exercise 1.27
-
-
 def portfolio_cost(filename):
 	with open(filename, 'rt') as f:
 		headers = next(f).split(',')
@@ -16,4 +11,5 @@ def portfolio_cost(filename):
 
 cost = portfolio_cost('C:/Users/max/practical-python//Work/Data/portfolio.csv')
 print('Total cost:', cost)
+    
     

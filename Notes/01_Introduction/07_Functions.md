@@ -161,6 +161,10 @@ This will allow you to call your function from the interactive mode.
 ```python
 >>> portfolio_cost('Data/portfolio.csv')
 44671.15
+
+Nota GM: questo non funziona, funziona invece da shell interattiva
+>>> exec(open("./pcost.py").read())
+Total cost: 44671.15
 >>>
 ```
 
@@ -279,3 +283,7 @@ bash %
 ```
 
 [Contents](../Contents.md) \| [Previous (1.6 Files)](06_Files.md) \| [Next (2.0 Working with Data)](../02_Working_with_data/00_Overview.md)
+
+# Terminata, ma sono da rivedere i comandi da interactive shell e da command line
+# e sys.argv
+

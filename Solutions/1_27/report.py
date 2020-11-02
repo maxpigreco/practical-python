@@ -1,10 +1,8 @@
-# report.py
-#
-# Exercise 2.4
+# pcost.py
 
 import csv
 
-def read_portfolio(filename):
+def portfolio_cost(filename):
 	'''Computes the total cost (shares * price) of a portfolio file'''
 	portfolio = []
 
@@ -16,4 +14,4 @@ def read_portfolio(filename):
 			portfolio.append(holding)
 	return portfolio
 
-# print(read_portfolio('Data/portfolio.csv'))
+print(portfolio_cost('Data/portfolio.csv'))

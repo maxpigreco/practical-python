@@ -412,3 +412,5 @@ strings.  Mixing different kinds of data together in the same list is
 often a good way to make your head explode so it's best avoided.
 
 [Contents](../Contents.md) \| [Previous (1.4 Strings)](04_Strings.md) \| [Next (1.6 Files)](06_Files.md)
+
+# Terminato

@@ -266,3 +266,5 @@ True
 ```
 
 [Contents](../Contents.md) \| [Previous (1.2 A First Program)](02_Hello_world.md) \| [Next (1.4 Strings)](04_Strings.md)
+
+# Terminato - ex 1.7, 1.8, 1.9, 1.10 non riesco a farli
