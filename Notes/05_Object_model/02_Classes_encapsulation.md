@@ -95,8 +95,8 @@ One approach: introduce accessor methods.
 class Stock:
     def __init__(self, name, shares, price):
         self.name = name
-	self.set_shares(shares)
-	self.price = price
+        self.set_shares(shares)
+        self.price = price
 
     # Function that layers the "get" operation
     def get_shares(self):
@@ -184,7 +184,7 @@ class Stock:
     ...
 ```
 
-This allows you to drop the extra parantheses, hiding the fact that it's actually a method:
+This allows you to drop the extra parentheses, hiding the fact that it's actually a method:
 
 ```python
 >>> s = Stock('GOOG', 100, 490.1)

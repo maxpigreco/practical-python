@@ -241,7 +241,7 @@ in your `report.py` program.  It should look something like this:
 ```python
 def print_report(reportdata):
     '''
-    Print a nicely formated table from a list of (name, shares, price, change) tuples.
+    Print a nicely formatted table from a list of (name, shares, price, change) tuples.
     '''
     headers = ('Name','Shares','Price','Change')
     print('%10s %10s %10s %10s' % headers)
@@ -312,7 +312,7 @@ the output.  For example, like this:
 
 def print_report(reportdata, formatter):
     '''
-    Print a nicely formated table from a list of (name, shares, price, change) tuples.
+    Print a nicely formatted table from a list of (name, shares, price, change) tuples.
     '''
     formatter.headings(['Name','Shares','Price','Change'])
     for name, shares, price, change in reportdata:
@@ -614,7 +614,7 @@ you can change the internal implementation to work in any way that you
 want.  You can write all-custom code.  You can use someone's third
 party package.  You swap out one third-party package for a different
 package when you find a better one.  It doesn't matter--none of
-your application code will break as long as you preserve keep the
+your application code will break as long as you preserve the
 interface.   That's a powerful idea and it's one of the reasons why
 you might consider inheritance for something like this.
 

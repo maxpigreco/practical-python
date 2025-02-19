@@ -209,7 +209,7 @@ of the function, it's better to use a class instead (more on this later).
 
 When you call a function, the argument variables are names that refer
 to the passed values. These values are NOT copies (see [section
-2.7](../02_Working_with_data/07_Objects)). If mutable data types are
+2.7](../02_Working_with_data/07_Objects.md)). If mutable data types are
 passed (e.g. lists, dicts), they can be modified *in-place*.
 
 ```python
@@ -338,7 +338,7 @@ follows:
 >>>
 ```
 
-An example of a column selector was given in [Exercise 2.23](../02_Working_with_data/06_List_comprehension).
+An example of a column selector was given in [Exercise 2.23](../02_Working_with_data/06_List_comprehension.md).
 However, here’s one way to do it:
 
 ```python
@@ -431,7 +431,7 @@ type-conversions to be applied to the returned data.  For example:
 >>>
 ```
 
-You already explored this in [Exercise 2.24](../02_Working_with_data/07_Objects).
+You already explored this in [Exercise 2.24](../02_Working_with_data/07_Objects.md).
 You'll need to insert the following fragment of code into your solution:
 
 ```python
@@ -469,7 +469,7 @@ line of data isn’t interpreted as a header line.  Also, you’ll need to
 make sure you don’t create dictionaries as there are no longer any
 column names to use for keys.
 
-### Exercise 3.7: Picking a different column delimitier
+### Exercise 3.7: Picking a different column delimiter
 
 Although CSV files are pretty common, it’s also possible that you
 could encounter a file that uses a different column separator such as

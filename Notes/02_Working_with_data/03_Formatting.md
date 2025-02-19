@@ -89,7 +89,7 @@ keyword arguments.
 ```python
 >>> '{name:>10s} {shares:10d} {price:10.2f}'.format(name='IBM', shares=100, price=91.1)
 '       IBM        100      91.10'
->>> '{:10s} {:10d} {:10.2f}'.format('IBM', 100, 91.1)
+>>> '{:>10s} {:10d} {:10.2f}'.format('IBM', 100, 91.1)
 '       IBM        100      91.10'
 >>>
 ```
@@ -115,7 +115,9 @@ modeled after the C `printf()` as well.
 *Note: This is the only formatting available on byte strings.*
 
 ```python
->>> b'%s has %n messages' % (b'Dave', 37)
+>>> b'%s has %d messages' % (b'Dave', 37)
+b'Dave has 37 messages'
+>>> b'%b has %d messages' % (b'Dave', 37)  # %b may be used instead of %s
 b'Dave has 37 messages'
 >>>
 ```
